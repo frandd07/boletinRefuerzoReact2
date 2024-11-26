@@ -12,6 +12,12 @@ import UserTable from "./Ejercicio9";
 import GuessTheNumber from "./Ejercicio10";
 import TimeCounter from "./Ejercicio11";
 import ThemeSelector from "./Ejercicio12";
+import LiveValidationForm from "./Ejercicio13";
+import Imagenes from "./Imagenes";
+import Frases from "./Frases";
+import MultiCounter from "./Ejercicio8";
+import SurveySimulator2 from "./Ejercicio14";
+
 
 export default function Home() {
   return (
@@ -23,10 +29,15 @@ export default function Home() {
       <SurveySimulator/>
       <ShoppingList/>
       <LoginForm/>
+      <Imagenes/>
+      <MultiCounter/>
       <UserTable/>
       <GuessTheNumber/>
       <TimeCounter/>
       <ThemeSelector/>
+      <LiveValidationForm/>
+      <SurveySimulator2/>
+      <Frases/>
     </div>
   );
 }
